@@ -1,0 +1,98 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer xoxb-8236626237414-8312083129942-Na62VcGtiPtdyJLOm7FXMZEK
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://slack.com/api/conversations.list
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92VbU/bMBDHv4rlvWVVk5KH9h0DNrYxprHCHgBVbnJtTB0780M7hvjuOyctbRkT
+        bNoQ4k0Un+27/53vp7ukakJ7VjvYoFnBpARhaO/kkvKc9uh2O42/vNlNPrzbphtUshLQaFTGmcA1
+        N4P5lYUHtIy1chXtjZgwjYGXq6uyWl9Xmk+ZhWtTpgGXGDtIOlGahnEc1ueYzgo+9RvLu2OQoFHJ
+        wuSk4HLiz7QbsQOpdMkE/+Fta7pNwfS6M6XHt1grkDmX4wF8tzd3F1sL88kZqlfS+qMWWDmoK9hv
+        Khh/3Y4xsqvyG9lFSTtCX+hC2gFen4I2zHIlaU86IeYFURpdHbXTJDnY3o+OwyaJW0Q1y0V8/5Jr
+        Cs6WsjGWhMyuHz5r3gjKIehrn1ZVPKO9SzplwvkGoKuqcCGYQSFgse5XGMDpShlYvfDeFqDJor0I
+        SiQjpclM6UmL9AtuiJJw6sJ20DXk3Blbb4+cbJFXYIlVZCLVjFwop4lXW2IR0Y3MiSkWdsHHhcUo
+        hufQIqcuTzsZfkdpSn9fxKXyZbv5FLSqQFsOxmeRMTll9d+IC2ie9SW6iTbfHh1Eh/O3KCt7cV2y
+        b45XA1tg1HzeBnne3doafmcHrykGcAYGGfNFohrTUCWto8KUK2cGvnXnryFdOX8ONATB1cYSzCRK
+        Poc78e4STJR9jk/6MGR2ok7yr8hcE/440MT00m7QffJo1vTNe4XgrwcPMNMLW6AU8mz+NC2yp0RO
+        SgCLZrNB6mxIrrKGw5JNcAUZN1gfg8SOoWZ+xm2x5Lb1Byj6/ro3ikfh/ov9F1v0FvLeDreQvMAc
+        vgpukLfour9A7yj4uNffWUGPCfFcs/PnFrLiMU3GJvgd+P0q/pEw2O50wiB98gx+rFnCdlFOZlBi
+        qg1UTTnwf6icJZkqKyYviIQZ8ucqXHtCEVZ/Xq1OxlmhEEYDegrEqBLIxOXK+KkYDqP2/5yH7/rR
+        vebh3vEnpHL89bgQN6icgcDM4FYq6041gmUTehegYT/q9MMloFYzLrFeDzQck83uvxqO68ofCZmY
+        XxzHT57MOy7cY2qgSYOpcCgC2i3DMjIfQfoaZE6bxvXV1U8rLs0niQ0AAA==
+    headers:
+      access-control-allow-headers:
+      - slack-route, x-slack-version-ts, x-b3-traceid, x-b3-spanid, x-b3-parentspanid,
+        x-b3-sampled, x-b3-flags
+      access-control-allow-origin:
+      - '*'
+      access-control-expose-headers:
+      - x-slack-req-id, retry-after
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-encoding:
+      - gzip
+      content-length:
+      - '841'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 20 Jan 2025 11:41:18 GMT
+      expires:
+      - Sat, 26 Jul 1997 05:00:00 GMT
+      pragma:
+      - no-cache
+      referrer-policy:
+      - no-referrer
+      server:
+      - Apache
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains; preload
+      vary:
+      - Accept-Encoding
+      via:
+      - 1.1 slack-prod.tinyspeck.com, envoy-www-iad-jnwycerw,envoy-edge-bom-ylgfozdi
+      x-accepted-oauth-scopes:
+      - channels:read,groups:read,mpim:read,im:read,read
+      x-backend:
+      - main_normal main_canary_with_overflow main_control_with_overflow
+      x-content-type-options:
+      - nosniff
+      x-edge-backend:
+      - envoy-www
+      x-envoy-attempt-count:
+      - '1'
+      x-envoy-upstream-service-time:
+      - '216'
+      x-oauth-scopes:
+      - app_mentions:read,channels:history,channels:join,channels:manage,channels:read,chat:write.customize,chat:write.public,chat:write,files:read,files:write,groups:history,groups:read,groups:write,im:history,im:read,im:write,links:read,links:write,mpim:history,mpim:read,mpim:write,pins:read,pins:write,reactions:read,reactions:write,reminders:read,reminders:write,team:read,usergroups:read,usergroups:write,users:read,users:write,users.profile:read
+      x-server:
+      - slack-www-hhvm-main-iad-vyuu
+      x-slack-backend:
+      - r
+      x-slack-edge-shared-secret-outcome:
+      - no-match
+      x-slack-req-id:
+      - d3e87a3bc78777acd07e7be6ef4047ce
+      x-slack-shared-secret-outcome:
+      - no-match
+      x-slack-unique-id:
+      - Z442Xn0G-5WplQSeTMtE_wAAEAQ
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

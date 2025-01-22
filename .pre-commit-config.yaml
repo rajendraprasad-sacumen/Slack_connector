@@ -1,0 +1,24 @@
+exclude: ^connector
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+      - id: check-added-large-files
+      - id: trailing-whitespace
+      - id: check-yaml
+
+  - repo: https://github.com/PyCQA/flake8
+    # This should match pyproject.toml tool.poetry.dev-dependencies
+    rev: 4.0.1
+    hooks:
+      - id: flake8
+        name: Check flake8 constraints
+
+  - repo: https://github.com/pycqa/pylint
+    rev: v2.8.3
+    hooks:
+      - id: pylint
+        types: [python]
+        args: ['--disable=C0411,E0401,F0401,R0801,R0902,W0212,W0105,W0107,C0415,W0613', '--max-line-length=200']
+
