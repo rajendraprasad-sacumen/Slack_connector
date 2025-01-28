@@ -2,7 +2,7 @@
 
 connector created for training purpose
 
-##Functionalities
+# Functionalities
 
 Fetch user list from Workspace
 
