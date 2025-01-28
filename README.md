@@ -1,8 +1,8 @@
-## Creating slack API connector
+# Creating slack API connector
 
 connector created for training purpose
 
-# Functionalities
+## Functionalities
 
 Fetch user list from Workspace
 
@@ -14,7 +14,7 @@ Fetch list of files from workspace
 
 Installations
 
-##Packages
+## Packages
 
 pip install requests
 
@@ -22,11 +22,11 @@ pip install pytest
 
 Configurations
 
-##Logging Configurations
+## Logging Configurations
 
 LOG_HANDLER = RotatingFileHandler LOG_LEVEL = DEBUG LOG_FILE_NAME = slack_connector.log
 
-##Run unit test cases
+## Run unit test cases
 
 To run unittest cases pytest module is required
 
